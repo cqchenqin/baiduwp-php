@@ -27,7 +27,7 @@ if (!defined('init')){ // 直接访问处理程序
     die("HTTP 403 禁止访问！\r\n此文件是 PanDownload 网页复刻版 PHP 语言版项目版本" . programVersion . "的配置文件！\r\n禁止直接访问！");
 }
 
-define('BDUSS', ''); // 你的 SVIP BDUSS
-define('STOKEN', ''); // 你的 SVIP STOKEN
+define('BDUSS', 'TZPaHItWmpuV216WGZPblZZMm00ZGQ4a2ZnT0R3bDI4VGhYdXNEUWhxZFZjV0JmSVFBQUFBJCQAAAAAAAAAAAEAAAD9sGydwdZtbTMxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFXkOF9V5DhfN'); // 你的 SVIP BDUSS
+define('STOKEN', '8e9e5524b04d9c8cfc9de0731b69599f97d7a90787f68619f01299e9e79a1807'); // 你的 SVIP STOKEN
 define('IsCheckPassword', true); // 设为 true 则要求密码为变量 Password 的值，否则提示密码错误；设为 false 则不需要密码。
-define('Password', '请在这里填写密码啦！ヾ(≧▽≦*)o'); // 在下载器首页需要输入的密码，如果将 IsCheckPassWord 设为 false 则无论设置什么都会失效。
+define('Password', 'cqchenqin'); // 在下载器首页需要输入的密码，如果将 IsCheckPassWord 设为 false 则无论设置什么都会失效。
